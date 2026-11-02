@@ -1,0 +1,39 @@
+{
+  "name": "sarkarisetu-backend",
+  "version": "1.0.0",
+  "description": "Backend API for SarkariSetu - Unified Government Schemes Discovery Platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seeder.js",
+    "test": "node tests/verify_phase4.js",
+    "test:phase4": "node tests/verify_phase4.js",
+    "test:phase5": "node tests/verify_phase5.js",
+    "test:phase6": "node tests/verify_phase6.js",
+    "test:phase7": "node tests/verify_phase7.js",
+    "test:expansion": "node tests/verify_expansion.js",
+    "test:security": "node tests/verify_security.js"
+  },
+  "keywords": [
+    "government",
+    "schemes",
+    "sarkarisetu",
+    "express",
+    "mongoose"
+  ],
+  "author": "SarkariSetu Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.9.5",
+    "multer": "^2.5.0"
+  }
+}

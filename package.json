@@ -1,0 +1,13 @@
+{
+  "name": "sarkarisetu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SarkariSetu - Unified Government Schemes Discovery and Eligibility Platform",
+  "scripts": {
+    "start": "npm --prefix backend run dev",
+    "seed": "npm --prefix backend run seed",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "test": "npm --prefix backend test"
+  }
+}

@@ -1,0 +1,15 @@
+/* Custom styles for SarkariSetu Platform */
+.gov-tricolor-strip {
+  height: 4px;
+  background: linear-gradient(90deg, #ea580c 33.33%, #ffffff 33.33%, #ffffff 66.66%, #047857 66.66%);
+}
+
+.scheme-card-shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scheme-card-shadow:hover {
+  box-shadow: 0 10px 25px -5px rgba(15, 41, 66, 0.08), 0 8px 10px -6px rgba(15, 41, 66, 0.04);
+  transform: translateY(-2px);
+}
