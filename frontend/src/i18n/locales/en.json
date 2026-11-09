@@ -335,7 +335,15 @@
     "addNewScheme": "Add New Scheme",
     "editScheme": "Edit Scheme",
     "status": "Status",
-    "verificationStatus": "Verification"
+    "verificationStatus": "Verification",
+    "auditLogs": "Audit Logs",
+    "reviewQueue": "Review & Verification Queue",
+    "exportReport": "Export Platform Report",
+    "verificationHealth": "Verification Health",
+    "systemHealth": "System Health",
+    "operational": "Operational",
+    "connected": "Connected",
+    "quickActions": "Quick Actions"
   },
   "checklist": {
     "title": "Smart Document Checklist",

@@ -7,6 +7,7 @@ import {
   Users,
   BarChart3,
   ClipboardList,
+  ShieldCheck,
   ShieldAlert,
   ArrowLeft,
   LogOut,
@@ -130,6 +131,14 @@ const AdminLayout = () => {
             >
               <BarChart3 className="w-4 h-4" />
               <span>{t('admin.analytics')}</span>
+            </NavLink>
+            <NavLink
+              to="/admin/audit-logs"
+              onClick={() => setSidebarOpen(false)}
+              className={navItemClass}
+            >
+              <ShieldCheck className="w-4 h-4" />
+              <span>{t('admin.auditLogs', 'Audit Logs')}</span>
             </NavLink>
           </nav>
         </div>

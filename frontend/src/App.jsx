@@ -36,6 +36,7 @@ import AdminSchemeFormPage from './pages/admin/AdminSchemeFormPage';
 import AdminUsersPage from './pages/admin/AdminUsersPage';
 import AdminApplicationsPage from './pages/admin/AdminApplicationsPage';
 import AdminAnalyticsPage from './pages/admin/AdminAnalyticsPage';
+import AdminAuditLogsPage from './pages/admin/AdminAuditLogsPage';
 
 import './App.css';
 
@@ -144,6 +145,7 @@ function App() {
               <Route path="users" element={<AdminUsersPage />} />
               <Route path="applications" element={<AdminApplicationsPage />} />
               <Route path="analytics" element={<AdminAnalyticsPage />} />
+              <Route path="audit-logs" element={<AdminAuditLogsPage />} />
             </Route>
 
             {/* 404 Route */}
